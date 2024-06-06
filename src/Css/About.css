@@ -1,0 +1,132 @@
+/*.about {
+    padding: 100px 0;
+    margin-top: -600px;
+    position: relative;
+    z-index: 1;
+    padding-top: 0;
+  }*/
+  
+  .subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    background: linear-gradient(180deg, #E86F65 0%, #F19208 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 10px;
+  }
+  
+  .title_sec {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  
+  .desc_sec {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #9195A9;
+  }
+  
+  .animation_about {
+    display: block;
+    width: 410px;
+    height: 410px;
+    margin: auto;
+    position: relative;
+    margin-top: 35px;
+  }
+  
+  .animation_about .animation_img_about {
+    width: 100%;
+    display: block;
+    animation: 20s linear 0s normal none infinite running rot_right;
+    -webkit-animation: 20s linear 0s normal none infinite running rot_right;
+  }
+  
+  .animation_about .about_logo {
+    position: absolute;
+    display: block;
+    width: 145px;
+    height: 145px;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+  
+  .animation_about .top_left {
+    position: absolute;
+    display: block;
+    width: 217px;
+    height: 107px;
+    top: 30px;
+    left: -80px;
+  }
+  
+  .animation_about .top_right {
+    position: absolute;
+    display: block;
+    width: 217px;
+    height: 107px;
+    top: 30px;
+    right: -80px;
+  }
+  
+  .animation_about .bottom_left {
+    position: absolute;
+    display: block;
+    width: 217px;
+    height: 107px;
+    bottom: 30px;
+    left: -80px;
+  }
+  
+  .animation_about .bottom_right {
+    position: absolute;
+    display: block;
+    width: 217px;
+    height: 107px;
+    bottom: 30px;
+    right: -80px;
+  }
+  
+  .stat_block {
+    display: block;
+    min-width: 200px;
+    margin-bottom: 100px;
+  }
+  
+  .right-stat .stat_block {
+    margin-left: 70px;
+  }
+  
+  .stat_block img {
+    width: 130px;
+    height: auto;
+  }
+  
+  .stat_block h4 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+  
+  .stat_block h6 {
+    color: #9195A9;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }

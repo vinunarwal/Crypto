@@ -1,0 +1,212 @@
+.levels {
+    margin-top: -90px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .level_block {
+    border-radius: 17.273px;
+    border: 0.455px solid #757C9C;
+    background: #1D223C;
+    padding: 25px 30px;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .level_block:after {
+    content: '';
+    width: 44px;
+    height: 100%;
+    background: linear-gradient(180deg, #6A06FF 0%, #9853FF 100%);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 17.273px 17.273px 0;
+  }
+  
+  .percent_monthly {
+    position: relative;
+    margin-right: 22px;
+  }
+  
+  .percent_monthly img {
+    width: 125px;
+  }
+  
+  .percent_monthly h6 {
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 145%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .percent_monthly h5 {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  
+  .percent_monthly .text_percent {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    justify-content: center;
+  }
+  
+  .content_level {
+    width: 55%;
+  }
+  
+  .range_sleep {
+    border-radius: 32.727px;
+    background: #333A5C;
+    width: 100%;
+    height: 9.091px;
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .range_sleep:after {
+    content: '';
+    display: block;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 32.727px;
+    background: linear-gradient(270deg, #9D5BFF 0%, #60F 100%);
+    position: absolute;
+    width: 16%;
+  }
+  
+  .content_level h7 {
+    color: #9195A9;
+    font-size: 18px;
+    margin-bottom: 9px;
+  }
+  
+  .content_level h4 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  .content_level h3 {
+    color: #9195A9;
+    font-size: 12px;
+  }
+  
+  .content_level .list_crypto {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content_level .list_crypto img {
+    margin-right: 5px;
+    width: 20px;
+  }
+  
+  .level_block h1 {
+    position: absolute;
+    color: #FFF;
+    font-size: 18px;
+    right:-25.5px;
+    z-index: 1;
+    transform: rotate(-90deg);
+    margin: 0;
+    font-weight: 400;
+  }
+  
+  .levels {
+    background: url("https://crypcet.com/wp-content/themes/crypcet/images/levels_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .level4.level_block::after {
+    background: linear-gradient(180deg, #31DEA5 0%, #45B6F0 100%);
+  }
+  
+  .level4 .range_sleep::after {
+    background: linear-gradient(270deg, #46B5F3 0%, #30E0A1 100%);
+    width: 64%;
+  }
+  
+  .level2.level_block::after {
+    background: linear-gradient(180deg, #FA2258 0%, #FF21AF 100%);
+  }
+  
+  .level2 .range_sleep::after {
+    background: linear-gradient(90deg, #FA2256 0%, #FF21B3 100%);
+    width: 32%;
+  }
+  
+  .level5.level_block::after {
+    background: linear-gradient(180deg, #6C36FF 0%, #BB46FB 100%);
+  }
+  
+  .level5 .range_sleep::after {
+    background: linear-gradient(270deg, #6A36FF 0%, #BD47FB 100%);
+    width: 80%;
+  }
+  
+  .level3.level_block::after {
+    background: linear-gradient(180deg, #F7921A 0%, #EB5724 100%);
+  }
+  
+  .level3 .range_sleep::after {
+    background: linear-gradient(270deg, #EB5424 0%, #F7931A 100%);
+    width: 48%;
+  }
+  
+  .level6.level_block::after {
+    background: linear-gradient(180deg, #3A5CFF 0%, #02AAFF 100%);
+  }
+  
+  .level6 .range_sleep::after {
+    background: linear-gradient(270deg, #01ABFF 0%, #3C5BFF 100%);
+    width: 100%;
+  }
+  
+  .levels {
+    padding-bottom: 100px;
+  }
+  
+  .standart_btn {
+    border-radius: 10px;
+    background: var(--2, linear-gradient(180deg, #6F78FF 0%, #4853F6 100%));
+    box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25) inset;
+    padding: 15px 25px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: fit-content;
+    display: inline-block;
+  }
+  
+  .standart_btn:hover {
+    background: linear-gradient(91deg, #F19208 0%, #E86F65 100%);
+    color: #fff;
+  }
+  
+  .levels .standart_btn {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  
+  

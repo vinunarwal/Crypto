@@ -1,0 +1,185 @@
+.stat_ref {
+    display: block;
+    height: 664px;
+    background: url("https://crypcet.com/wp-content/themes/crypcet/images/ref_component.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 1000px;
+    background-position: right;
+}
+  
+  .right_ref_block h3 {
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .right_ref_block h3:after {
+    content: '';
+    width: 292px;
+    height: 292px;
+    background: url("https://crypcet.com/wp-content/themes/crypcet/images/btc_ref.png");
+    display: block;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -85px;
+    right: -340px;
+  }
+  
+  .right_ref_block p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    padding: 30px 0;
+  }
+  
+  .standart_btn_2 {
+    border-radius: 10px;
+    background: #1C213A;
+    padding: 15px 25px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: fit-content;
+    display: inline-block;
+  }
+  
+  .standart_btn_2:hover {
+    background: linear-gradient(91deg, #F19208 0%, #E86F65 100%);
+    color: #fff;
+  }
+  
+  .right_ref_block .standart_btn_2 {
+    margin-left: 15px;
+  }
+  .social_buttons_video .tg_video {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+  
+  .bonus_video {
+    border-radius: 17px;
+    border: 1px solid #757C9C;
+    background: #1D223C;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+  }
+  
+  .header_video {
+    padding: 20px 70px;
+    border-bottom: 1px solid #757C9C;
+  }
+  
+  .header_video h4 {
+    color: #FFF;
+    margin: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .content_video {
+    padding: 30px;
+  }
+  
+  .content_video h5 {
+    color: #FFF;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .standart_btn img {
+    width: 18px;
+}
+
+  .social_buttons_video {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+  .standart_btn_3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 10px;
+    background: #2C3356;
+    padding: 15px 25px;
+  }
+  
+  .standart_btn_3:hover {
+    background: linear-gradient(91deg, #F19208 0%, #E86F65 100%);
+    color: #fff;
+  }
+  .bonus_video:before {
+    content: '';
+    width: 114px;
+    height: 114px;
+    background: url("https://crypcet.com/wp-content/themes/crypcet/images/usdt_video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: -57px;
+    left: -57px;
+    animation: zoom-in-zoom-out 3s ease infinite;
+    transform: scale(0.75, 0.75);
+}
+
+.bonus_video:after {
+    content: '';
+    width: 71px;
+    height: 71px;
+    background: url("https://crypcet.com/wp-content/themes/crypcet/images/youtube_video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: -55px;
+    right: 15px;
+    z-index: -1;
+    animation: zoom-in-zoom-out 1.5s ease infinite;
+    animation-delay: 0.5s;
+    transform: scale(0.75, 0.75);
+}
+.header_video:before {
+    content: '';
+    width: 45px;
+    height: 45px;
+    background: url("https://crypcet.com/wp-content/themes/crypcet/images/usdt_video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: -22px;
+    right: 100px;
+    animation: zoom-in-zoom-out 1.5s ease infinite;
+    animation-delay: 0.25s;
+    transform: scale(0.75, 0.75);
+}

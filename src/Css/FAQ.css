@@ -1,0 +1,89 @@
+.faq {
+    padding-bottom: 100px;
+    background: url("https://crypcet.com/wp-content/themes/crypcet/images/map_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 75%;
+    position: relative;
+  }
+  
+  .faq:before {
+    content: '';
+    background: url("https://crypcet.com/wp-content/themes/crypcet/images/elipse.png");
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+    z-index: -1;
+  }
+  
+  .btn-outline-faq {
+    color: #FFF;
+    text-align: center;
+    font-size: 18.141px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 9px;
+    background: #1C213A;
+    padding: 12px 22px;
+    margin-top: 60px;
+    transition: unset;
+  }
+  
+  .btn-outline-faq:hover, .btn-outline-faq.active {
+    color:#fff;
+    background: var(--2, linear-gradient(180deg, #6F78FF 0%, #4853F6 100%));
+    box-shadow: 0px 3.628117799758911px 3.628117799758911px 0px rgba(255, 255, 255, 0.25) inset;
+  }
+  
+  .faq .accordion-item {
+    margin-bottom: 18px;
+    border-radius: 13px;
+    border: 0.454px solid #757C9C;
+    background: #1D223C;
+  }
+  
+  .faq .accordion-item .accordion-button:not(.collapsed) {
+    color: #fff;
+  }
+  
+  .faq .accordion-item .accordion-button {
+    background: transparent;
+    padding: 16px 18px;
+  }
+  
+  .faq .accordion-item .accordion-button img {
+    margin-right: 8px;
+  }
+  
+  .accordion-item .accordion-button::after {
+    background-image: url("https://crypcet.com/wp-content/themes/crypcet/images/down.svg") !important;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(-180deg);
+  }
+  
+  .accordion-body {
+    color: #9195A9;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 27px;
+    border-top: 1px solid #707CB0;
+    padding-top: 21px;
+  }
+  
+  .faq .standart_btn {
+    margin-top: 50px;
+  }
